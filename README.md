@@ -1,16 +1,16 @@
-# 🦴 Lumbar Spine Care Reminder - C++ Edition
+# 🦴 Lumbar Spine Care Reminder
 
-A stunning, cross-platform C++ console application to help protect your lumbar spine health by providing regular reminders to stand up and stretch.
+A beautiful, modern Python GUI application that helps protect your lumbar spine health by providing regular reminders to stand up and stretch.
 
 ## ✨ Features
 
-- **🎨 Beautiful Console Interface** - Colorful, animated terminal UI with ANSI styling
-- **⚡ Cross-Platform Support** - Works on Windows, macOS, and Linux
-- **🔊 Smart Notifications** - System notifications + audio alerts
-- **⏱️ Customizable Intervals** - Set reminder frequency from 5-120 minutes
+- **🎨 Beautiful GUI Interface** - Modern dark theme with gradient backgrounds and animations
+- **⚡ Python-Powered** - Cross-platform Tkinter GUI application  
+- **🔊 Smart Notifications** - System sound alerts + auto-close reminders
+- **⏱️ Customizable Intervals** - Set reminder frequency from 5-120 minutes  
 - **🎯 Health-Focused Design** - Professional health tips and exercise guidance
-- **🚀 High Performance** - Lightweight, multithreaded C++ application
-- **💾 Easy Compilation** - Simple Makefile for all platforms
+- **🚀 Easy to Use** - Simple start/stop controls with real-time status updates
+- **💾 No Installation Required** - Run directly with Python
 
 ## 🖥️ Visual Preview
 
@@ -32,20 +32,38 @@ A stunning, cross-platform C++ console application to help protect your lumbar s
 └────────────────────────────────────────────────────────┘
 ```
 
-## 🛠️ Installation & Compilation
+## 🛠️ Installation & Running
 
 ### Prerequisites
 
-- **C++11 compatible compiler** (GCC, Clang, or MSVC)
-- **Make utility** (optional, for easy building)
+- **Python 3.6+** 
+- **Tkinter** (usually comes with Python)
 
 ### Quick Start
 
-#### Method 1: Using Makefile (Recommended)
+#### Method 1: Direct Run
 
 ```bash
-# Clone or download the files
-cd project_lumbar
+# Clone the repository
+git clone https://github.com/yashsharmaskk/posture-correcter-reminder.git
+cd posture-correcter-reminder
+
+# Install dependencies (if any)
+pip install -r requirements.txt
+
+# Run the application
+python lumbar_reminder.py
+```
+
+#### Method 2: Create Executable (Optional)
+
+```bash
+# Install PyInstaller
+pip install pyinstaller
+
+# Create executable
+pyinstaller --onefile --windowed lumbar_reminder.py
+```
 
 # Build the application
 make
